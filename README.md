@@ -1,0 +1,10 @@
+#Install
+
+#Plug manager
+curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+#For all setting to properly work
+pip3 install --user pynvim
+npm i -g neovim
+
+
