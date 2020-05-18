@@ -2,11 +2,6 @@
 inoremap <expr> <c-j> ("\<C-n>") " To check
 inoremap <expr> <c-k> ("\<C-p>") " To check
 
-" Use alt + hjkl to resize windows
-nnoremap ∆    :resize -2<CR>             " ALT + j
-nnoremap ˚    :resize +2<CR>             " ALT + k
-nnoremap ˙    :vertical resize -2<CR>    " ALT + h
-nnoremap ¬    :vertical resize +2<CR>    " ALT + l
 
 " ESC key 
 inoremap jj <Esc>
@@ -29,20 +24,36 @@ nnoremap <C-c> <Esc>
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
+
+" == VISUAL mode ==
+" Moving blocks
+vnoremap J :m '>+1<CR>gv=gv      " Move selected line(s) down
+vnoremap K :m '<-2<CR>gv=gv      " Move selected line(s) up
 " Better tabbing
 vnoremap < <gv
 vnoremap > >gv
 
-" Better window navigation
+
+"== Windows ==
+" Window navigation
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-nnoremap <Leader>o o<Esc>^Da
-nnoremap <Leader>O O<Esc>^Da
+" Use alt + hjkl to resize windows
+nnoremap ∆    :resize -2<CR>             " ALT + j
+nnoremap ˚    :resize +2<CR>             " ALT + k
+nnoremap ˙    :vertical resize -2<CR>    " ALT + h
+nnoremap ¬    :vertical resize +2<CR>    " ALT + l
 
 
+nnoremap <Leader>o o<Esc>^Da  " TO CHECK
+nnoremap <Leader>O O<Esc>^Da  " TO CHECK
+
+" == NERDTree ==
+" autocmd vimenter * NERDTree | wincmd p   " Open NERDTree at the beginning
+map <C-b> :NERDTreeToggle<CR>              " Toogle NERDTree
 
 " # Don't forget #
 " <C-x>  => Ctrl + x
