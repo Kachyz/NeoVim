@@ -38,6 +38,10 @@ set ignorecase                          " Ignore case-sensitive searches
 set noerrorbells
 set noswapfile                          " Avoid SWAP files
 set colorcolumn=120                     " Display a column to guide
+set termguicolors                       " Full colors for themes
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
+colorscheme xcodedark                   " Bracket color HACK
+colorscheme night-owl
+" colorscheme nightfly

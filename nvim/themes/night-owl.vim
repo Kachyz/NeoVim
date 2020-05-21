@@ -7,4 +7,3 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 " To enable the lightline theme
 let g:lightline = { 'colorscheme': 'nightowl' }
-
