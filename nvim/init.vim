@@ -1,7 +1,15 @@
+" == GENERAL CONFIG ==
+source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/keys/mapping.vim
-source $HOME/.config/nvim/vim-plug/plugins.vim
 
 " == THEMES ==
+source $HOME/.config/nvim/themes/nightfly.vim
 source $HOME/.config/nvim/themes/night-owl.vim
+
+" == LUA ==
+luafile $HOME/.config/nvim/lua/plug-colorizer.lua
+
+" == PLUG CONFIG ==
+source $HOME/.config/nvim/plug-config/rainbow.vim
 

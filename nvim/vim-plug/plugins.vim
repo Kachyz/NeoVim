@@ -14,6 +14,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'scrooloose/NERDTree'
   " Auto pairs for '(' '[' '{' 
   Plug 'jiangmiao/auto-pairs'
+  " Highlights
+  Plug 'norcalli/nvim-colorizer.lua'
+  " Bracket colors
+  Plug 'junegunn/rainbow_parentheses.vim'
+
 
   " == THEMES ==
   Plug 'joshdick/onedark.vim'
@@ -25,7 +30,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mhartington/oceanic-next'
   Plug 'dikiaap/minimalist'
   Plug 'rhysd/vim-color-spring-night'
-  Plug 'bluz71/vim-nightfly-guicolors'
+"  Plug 'bluz71/vim-nightfly-guicolors'
+  Plug 'Kachyz/vim-nightfly-guicolors'
   Plug 'Rigellute/shades-of-purple.vim'
   Plug 'wadackel/vim-dogrun'
 
