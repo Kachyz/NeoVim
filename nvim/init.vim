@@ -6,6 +6,7 @@ source $HOME/.config/nvim/keys/mapping.vim
 " == THEMES ==
 source $HOME/.config/nvim/themes/nightfly.vim
 source $HOME/.config/nvim/themes/night-owl.vim
+source $HOME/.config/nvim/themes/airline.vim   " StatusLine
 
 " == LUA ==
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua

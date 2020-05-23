@@ -20,6 +20,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'junegunn/rainbow_parentheses.vim'
   " Stable version of coc
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  " Airline
+  Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
+  " Git
+  Plug 'tpope/vim-fugitive'
 
   " == THEMES ==
   Plug 'joshdick/onedark.vim'
