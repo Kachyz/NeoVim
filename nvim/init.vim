@@ -11,5 +11,6 @@ source $HOME/.config/nvim/themes/night-owl.vim
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
 
 " == PLUG CONFIG ==
+source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/rainbow.vim
 

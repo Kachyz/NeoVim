@@ -18,7 +18,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'norcalli/nvim-colorizer.lua'
   " Bracket colors
   Plug 'junegunn/rainbow_parentheses.vim'
-
+  " Stable version of coc
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
   " == THEMES ==
   Plug 'joshdick/onedark.vim'
