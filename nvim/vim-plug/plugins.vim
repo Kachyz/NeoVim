@@ -25,6 +25,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'vim-airline/vim-airline-themes'
   " Git
   Plug 'tpope/vim-fugitive'
+  " Icons
+  Plug 'ryanoasis/vim-devicons'
+
 
   " == THEMES ==
   Plug 'joshdick/onedark.vim'
