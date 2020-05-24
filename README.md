@@ -13,3 +13,10 @@
 
 ###Easy install of all COC extensions
 Run `cocExtensions.sh` file
+
+## Fonts
+```
+brew tap homebrew/cask-fonts
+brew cask install font-hack-nerd-font
+brew cask install font-firacode-nerd-font
+```
