@@ -7,9 +7,10 @@ inoremap <expr> <c-k> ("\<C-p>") " To check
 inoremap jj <Esc>
 nnoremap <C-c> <Esc>
 
-" Capitalize a word
-inoremap <c-u> <ESC>viwUi
-nnoremap <c-u> viwU<Esc>
+" Toggle capitalize a word
+" Uppercase 'U', lowercase 'u', toggle '~'
+inoremap <C-u> <ESC>viw~i
+nnoremap <C-u> viw~<Esc>
 
 " == BUFFERS ==
 " TAB in general mode will move to text buffer
