@@ -22,7 +22,9 @@ set showtabline=2
 let g:airline_section_x = ''
 let g:airline_section_y = ''
 let g:airline_section_z = '%l/%L : %c [%p%%]'
-let g:airline_symbols = {}
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
 let g:airline_symbols.branch = ''
 let g:airline_symbols.notexists = ' ?'
 let g:airline_symbols.dirty = ' *'
