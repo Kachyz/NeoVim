@@ -25,6 +25,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'vim-airline/vim-airline-themes'
   " Git
   Plug 'tpope/vim-fugitive'
+  Plug 'mhinz/vim-signify'
   " Icons
   Plug 'ryanoasis/vim-devicons'
 
