@@ -51,6 +51,9 @@ nnoremap ˚    :resize +2<CR>             " ALT + k
 nnoremap ˙    :vertical resize -2<CR>    " ALT + h
 nnoremap ¬    :vertical resize +2<CR>    " ALT + l
 
+"== Code ==
+" Comments
+nmap <Leader>/ :Commentary<CR>   " Toggle comments
 
 nnoremap <Leader>o o<Esc>^Da  " TO CHECK
 nnoremap <Leader>O O<Esc>^Da  " TO CHECK

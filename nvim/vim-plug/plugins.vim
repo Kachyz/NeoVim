@@ -28,6 +28,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mhinz/vim-signify'
   " Icons
   Plug 'ryanoasis/vim-devicons'
+  " Comments
+  Plug 'tpope/vim-commentary'
 
 
   " == THEMES ==
