@@ -12,6 +12,12 @@ let g:airline_powerline_fonts = 1
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 
+" Avoidn GIT hunks
+let g:airline#extensions#hunks#enabled = 0
+
+" Remove file encoding section if it's UTF-8
+let g:airline#parts#ffenc#skip_expected_string='utf-8[unix]'
+
 " Switch to your current theme
 let g:airline_theme = 'dracula'
 
@@ -20,7 +26,6 @@ set showtabline=2
 
 " StatusLine sections
 let g:airline_section_x = ''
-let g:airline_section_y = ''
 let g:airline_section_z = '%l/%L : %c [%p%%]'
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
