@@ -16,3 +16,4 @@ source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/rainbow.vim
 source $HOME/.config/nvim/plug-config/signify.vim
 source $HOME/.config/nvim/plug-config/whitespace.vim
+source $HOME/.config/nvim/plug-config/indentLine.vim
