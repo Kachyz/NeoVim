@@ -8,16 +8,24 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+  " = SYNTAX =
   " Better Syntax Support
   Plug 'sheerun/vim-polyglot'
-  " File Explorer
-  Plug 'scrooloose/NERDTree'
-  " Auto pairs for '(' '[' '{' 
-  Plug 'jiangmiao/auto-pairs'
-  " Highlights
+  " Vertical lines (indentation)
+  Plug 'Yggdroot/indentLine'
+  " Highlights (colors)
   Plug 'norcalli/nvim-colorizer.lua'
   " Bracket colors
   Plug 'junegunn/rainbow_parentheses.vim'
+
+  " = LESS TYPING =
+  " Comments
+  Plug 'tpope/vim-commentary'
+  " Auto pairs for '(' '[' '{'
+  Plug 'jiangmiao/auto-pairs'
+
+  " File Explorer
+  Plug 'scrooloose/NERDTree'
   " Stable version of coc
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   " Airline
@@ -28,8 +36,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mhinz/vim-signify'
   " Icons
   Plug 'ryanoasis/vim-devicons'
-  " Comments
-  Plug 'tpope/vim-commentary'
 
 
   " == THEMES ==
