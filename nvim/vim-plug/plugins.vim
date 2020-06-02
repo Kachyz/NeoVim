@@ -24,6 +24,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Auto pairs for '(' '[' '{'
   Plug 'jiangmiao/auto-pairs'
 
+  " = FZF =
+  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+  Plug 'junegunn/fzf.vim'
+  Plug 'airblade/vim-rooter'
+
   " File Explorer
   Plug 'scrooloose/NERDTree'
   " Stable version of coc

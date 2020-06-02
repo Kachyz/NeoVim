@@ -1,3 +1,10 @@
+"  __  __  ______  ______  __  __  __  __  ______    
+" /\ \/ / /\  __ \/\  ___\/\ \_\ \/\ \_\ \/\___  \   
+" \ \  _"-\ \  __ \ \ \___\ \  __ \ \____ \/_/  /__  
+"  \ \_\ \_\ \_\ \_\ \_____\ \_\ \_\/\_____\/\_____\ 
+"   \/_/\/_/\/_/\/_/\/_____/\/_/\/_/\/_____/\/_____/ 
+"                                                    
+
 " == GENERAL CONFIG ==
 source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/general/settings.vim
@@ -17,3 +24,4 @@ source $HOME/.config/nvim/plug-config/rainbow.vim
 source $HOME/.config/nvim/plug-config/signify.vim
 source $HOME/.config/nvim/plug-config/whitespace.vim
 source $HOME/.config/nvim/plug-config/indentLine.vim
+source $HOME/.config/nvim/plug-config/fzf.vim
