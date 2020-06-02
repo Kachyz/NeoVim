@@ -9,5 +9,5 @@ endfunction
 
 " strip trailing whitespace on JS buffer saves
 augroup whitespace
-  autocmd BufWritePre *.js call whitespace#strip_trailing()
+  autocmd BufWritePre * call whitespace#strip_trailing()
 augroup END
