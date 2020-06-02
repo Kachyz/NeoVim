@@ -10,11 +10,18 @@ let g:fzf_action = {
 " explicitly bind the keys to down and up in your $FZF_DEFAULT_OPTS.
 let g:fzf_history_dir = '~/.local/share/fzf-history'
 
-map <C-f> :Files<CR>
+" Search a file
+map <leader>p :Files<CR>
+" Search open buffers (not very useful)
 map <leader>b :Buffers<CR>
-nnoremap <leader>g :Rg<CR>
+" Ag, search lines in all files
+nnoremap <leader>g :Ag<CR>
+" NPI
 nnoremap <leader>t :Tags<CR>
+" Search for Marks
 nnoremap <leader>m :Marks<CR>
+" Search in current buffer
+nnoremap <C-f> :Lines<CR>
 
 
 let g:fzf_tags_command = 'ctags -R'
@@ -22,7 +29,7 @@ let g:fzf_tags_command = 'ctags -R'
 let g:fzf_layout = {'up':'~90%', 'window': { 'width': 0.8, 'height': 0.8,'yoffset':0.5,'xoffset': 0.5, 'highlight': 'Todo', 'border': 'sharp' } }
 
 let $FZF_DEFAULT_OPTS = '--layout=reverse --info=inline'
-let $FZF_DEFAULT_COMMAND="rg --files --hidden"
+let $FZF_DEFAULT_COMMAND='ag -g "" --ignore node_modules'
 
 
 " Customize fzf colors to match your color scheme
@@ -62,6 +69,8 @@ function! RipgrepFzf(query, fullscreen)
 endfunction
 
 command! -nargs=* -bang RG call RipgrepFzf(<q-args>, <bang>0)
+" Avoid matching filename
+command! -bang -nargs=* Ag call fzf#vim#ag(<q-args>, {'options': '--delimiter : --nth 4..'}, <bang>0)
 
 " Git grep
 command! -bang -nargs=* GGrep
