@@ -4,7 +4,7 @@ let g:mapleader = "\<Space>"
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
-set encoding=utf-8                      " The encoding displayed 
+set encoding=utf-8                      " The encoding displayed
 set ruler                               " Show the cursor position all the time
 set pumheight=10                        " Makes popup menu smaller
 set fileencoding=utf-8                  " The encoding written to file
@@ -42,6 +42,6 @@ set termguicolors                       " Full colors for themes
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
-colorscheme xcodedark                   " Bracket color HACK
+" colorscheme xcodedark                   " Bracket color HACK
 colorscheme night-owl
 " colorscheme nightfly
