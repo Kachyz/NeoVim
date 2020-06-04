@@ -43,6 +43,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'ryanoasis/vim-devicons'
   " Workspace handler
   Plug 'mhinz/vim-startify'
+  " Editor config
+  Plug 'editorconfig/editorconfig-vim'
 
   " == THEMES ==
   Plug 'joshdick/onedark.vim'
