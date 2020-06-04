@@ -41,7 +41,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mhinz/vim-signify'
   " Icons
   Plug 'ryanoasis/vim-devicons'
-
+  " Workspace handler
+  Plug 'mhinz/vim-startify'
 
   " == THEMES ==
   Plug 'joshdick/onedark.vim'
