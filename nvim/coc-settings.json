@@ -27,5 +27,9 @@
       "open"
     ],
     "v": "open:vsplit"
-  }
+  },
+  // Column signs
+  "diagnostic.errorSign": "🚫",
+  "diagnostic.warningSign": "⚠️",
+  "diagnostic.infoSign": "❕"
 }
