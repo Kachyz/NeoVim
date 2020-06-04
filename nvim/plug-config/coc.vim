@@ -23,6 +23,8 @@ if has("patch-8.1.1564")
 else
   set signcolumn=yes
 endif
+" To see GIT and DIAGNOSTICS together
+set signcolumn=auto:2
 
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
