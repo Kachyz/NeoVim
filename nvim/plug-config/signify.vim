@@ -8,6 +8,10 @@ let g:signify_sign_change            = '~'
 let g:signify_sign_show_count = 0
 let g:signify_sign_show_text = 1
 
+" Custom colors
+hi DiffAdd guifg=#ADDB44 ctermfg=233 guibg=NONE ctermbg=149 gui=NONE cterm=NONE
+hi DiffChange guifg=#FFA500 ctermfg=233 guibg=NONE ctermbg=222 gui=NONE cterm=NONE
+hi DiffDelete guifg=#FF5860 ctermfg=233 guibg=NONE ctermbg=204 gui=NONE cterm=NONE
 
 " Jump though hunks
 nmap <leader>gj <plug>(signify-next-hunk)
