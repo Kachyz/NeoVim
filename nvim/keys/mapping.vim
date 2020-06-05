@@ -3,7 +3,7 @@ inoremap <expr> <c-j> ("\<C-n>") " To check
 inoremap <expr> <c-k> ("\<C-p>") " To check
 
 
-" ESC key 
+" ESC key
 inoremap jj <Esc>
 nnoremap <C-c> <Esc>
 
@@ -53,7 +53,8 @@ nnoremap ¬    :vertical resize +2<CR>    " ALT + l
 
 "== Code ==
 " Comments
-nmap <Leader>/ :Commentary<CR>   " Toggle comments
+" Toggle comments
+nmap <Leader>/ :Commentary<CR>
 
 nnoremap <Leader>o o<Esc>^Da  " TO CHECK
 nnoremap <Leader>O O<Esc>^Da  " TO CHECK
