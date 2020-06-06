@@ -28,6 +28,13 @@ let g:startify_session_persistence = 1
 " Remove Empy buffer and Quit lables
 let g:startify_enable_special = 0
 
+let g:webdevicons_enable_startify = 1
+
+" Add icons before each line
+function! StartifyEntryFormat()
+  return 'WebDevIconsGetFileTypeSymbol(absolute_path) ." ". entry_path'
+endfunction
+
 " Cool header
 let g:startify_custom_header = [
   \ '   __  __     ______     ______     __  __     __  __     ______   ',
