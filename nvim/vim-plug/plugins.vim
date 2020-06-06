@@ -21,6 +21,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " = LESS TYPING =
   " Comments
   Plug 'tpope/vim-commentary'
+  " Surrong strings
+  Plug 'tpope/vim-surround'
   " Auto pairs for '(' '[' '{'
   Plug 'jiangmiao/auto-pairs'
 
