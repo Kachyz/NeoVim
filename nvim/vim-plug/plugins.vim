@@ -25,6 +25,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'tpope/vim-surround'
   " Auto pairs for '(' '[' '{'
   Plug 'jiangmiao/auto-pairs'
+  " <3 Emmet
+  Plug 'mattn/emmet-vim'
 
   " = FZF =
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
