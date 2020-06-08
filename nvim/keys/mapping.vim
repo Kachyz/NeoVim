@@ -55,6 +55,7 @@ nnoremap ¬    :vertical resize +2<CR>    " ALT + l
 " Comments
 " Toggle comments
 nmap <Leader>/ :Commentary<CR>
+vmap <Leader>/ :Commentary<CR>
 
 nnoremap <Leader>o o<Esc>^Da  " TO CHECK
 nnoremap <Leader>O O<Esc>^Da  " TO CHECK
