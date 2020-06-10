@@ -31,5 +31,7 @@
   // Column signs
   "diagnostic.errorSign": "🚫",
   "diagnostic.warningSign": "⚠️",
-  "diagnostic.infoSign": "❕"
+  "diagnostic.infoSign": "❕",
+  // Snippets
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips"
 }
