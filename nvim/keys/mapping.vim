@@ -28,6 +28,9 @@ nnoremap <C-Q> :wq!<CR>
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
+" == NORMAL mode ==
+" Split buffer vertically
+nnoremap <C-\> :vsplit<CR>
 
 " == VISUAL mode ==
 " Moving blocks
