@@ -10,3 +10,5 @@
 
 "  = VISUAL MODE =
 " S          -> surround selected text
+
+nnoremap <C-'> ysiw
