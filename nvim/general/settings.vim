@@ -39,6 +39,7 @@ set noerrorbells
 set noswapfile                          " Avoid SWAP files
 set colorcolumn=120                     " Display a column to guide
 set termguicolors                       " Full colors for themes
+set cursorline                          " Hightlight current line
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
