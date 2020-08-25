@@ -64,6 +64,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'Kachyz/vim-nightfly-guicolors'
   Plug 'Rigellute/shades-of-purple.vim'
   Plug 'wadackel/vim-dogrun'
+  Plug 'sainnhe/forest-night'
 
 call plug#end()
 

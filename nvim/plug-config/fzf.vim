@@ -15,7 +15,7 @@ map <leader>p :Files<CR>
 " Search open buffers (not very useful)
 map <leader>b :Buffers<CR>
 " Ag, search lines in all files
-nnoremap <leader>g :Ag<CR>
+nnoremap <leader>gp :Ag<CR>
 " NPI
 nnoremap <leader>t :Tags<CR>
 " Search for Marks

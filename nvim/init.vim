@@ -31,4 +31,5 @@ source $HOME/.config/nvim/plug-config/editorconfig.vim
 source $HOME/.config/nvim/plug-config/surround.vim
 source $HOME/.config/nvim/plug-config/emmet.vim
 source $HOME/.config/nvim/plug-config/snippets.vim
+source $HOME/.config/nvim/plug-config/fugitive.vim
 
