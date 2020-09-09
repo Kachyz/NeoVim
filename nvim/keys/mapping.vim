@@ -17,6 +17,8 @@ nnoremap <C-u> viw~<Esc>
 nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <S-TAB> :bprevious<CR>
+" Delete buffer but keep split panel
+nnoremap <leader>qq :bp\|bd #<CR>
 
 " Toogle highlights
 nnoremap <F3> :set hlsearch!<CR>
