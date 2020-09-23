@@ -69,6 +69,13 @@ nnoremap <Leader>O O<Esc>^Da  " TO CHECK
 " autocmd vimenter * NERDTree | wincmd p   " Open NERDTree at the beginning
 map <C-b> :NERDTreeToggle<CR>              " Toogle NERDTree
 
+
+" == JS ==
+" Surround interpolation
+nnoremap <Leader>ki ciw${ <ESC>pa }
+vnoremap <Leader>ki c${ <ESC>pa }
+
+
 " # Don't forget #
 " <C-x>  => Ctrl + x
 " <CR>   => carriage return (same as <Return> or <Enter>)
