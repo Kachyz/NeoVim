@@ -49,8 +49,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mhinz/vim-startify'
   " Editor config
   Plug 'editorconfig/editorconfig-vim'
-  " Emojis
-  Plug 'junegunn/vim-emoji'
+  " Emojis (gitmoji)
+  Plug 'Kachyz/vim-gitmoji'
 
   " == THEMES ==
   Plug 'joshdick/onedark.vim'
