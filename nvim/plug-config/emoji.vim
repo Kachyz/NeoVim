@@ -5,6 +5,6 @@ set completefunc=emoji#complete
 nnoremap <Leader>kr :%s/:\([^:]\+\):/\=emoji#for(submatch(1), submatch(0))/g<CR>
 
 "Insert emojis
-nnoremap <Leader>ke i<C-X><C-U><BS><BS><BS>
-inoremap :. <C-X><C-U><BS><BS><BS>
+nnoremap <Leader>ke i<C-X><C-U><BS><BS><BS><BS><BS><BS><BS><BS>
+inoremap :. <C-X><C-U><BS><BS><BS><BS><BS><BS><BS><BS>
 
