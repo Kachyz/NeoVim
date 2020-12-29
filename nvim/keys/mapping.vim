@@ -33,6 +33,9 @@ inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 " == NORMAL mode ==
 " Split buffer vertically
 nnoremap <C-\> :vsplit<CR>
+" Go to file in split window
+nnoremap <leader>kl <C-w>vgf
+nnoremap <leader>km <C-w>f
 
 " == VISUAL mode ==
 " Moving blocks
