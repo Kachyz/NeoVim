@@ -149,6 +149,9 @@ nnoremap <silent> <space>s  :<C-u>CocList -I symbols<cr>
 " Resume latest coc list.
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 
+" Search word in all dirtree
+nmap <leader>ksw :CocSearch <C-R>=expand("<cword>")<CR><CR>/<C-r><C-w><CR>
+
 " Explorer
 nmap <space>e :CocCommand explorer<CR>
 "nmap <space>f :CocCommand explorer --preset floating<CR>
