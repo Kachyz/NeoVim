@@ -19,6 +19,8 @@ nnoremap <TAB> :bnext<CR>
 nnoremap <S-TAB> :bprevious<CR>
 " Delete buffer but keep split panel
 nnoremap <leader>qq :bp\|bd #<CR>
+" Delete all buffers except the current one
+nnoremap <leader>kbd :%bd\|e#\|bd#<CR>
 
 " Toogle highlights
 nnoremap <F3> :set hlsearch!<CR>
