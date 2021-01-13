@@ -11,7 +11,7 @@ let g:startify_lists = [
 let g:startify_bookmarks = [
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'z': '~/.zshrc' },
-            \ '~/Desktop/alive/alive2020/',
+            \ { 'x': '~/.zprofile' },
             \ ]
 
 let g:startify_session_delete_buffers = 1
