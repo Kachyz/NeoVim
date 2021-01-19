@@ -17,6 +17,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'norcalli/nvim-colorizer.lua'
   " Bracket colors
   Plug 'junegunn/rainbow_parentheses.vim'
+  " Prettier :D
+  Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 
   " = LESS TYPING =
   " Comments

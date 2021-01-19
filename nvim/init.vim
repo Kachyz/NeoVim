@@ -22,16 +22,17 @@ luafile $HOME/.config/nvim/lua/plug-colorizer.lua
 
 " == PLUG CONFIG ==
 source $HOME/.config/nvim/plug-config/coc.vim
+source $HOME/.config/nvim/plug-config/editorconfig.vim
+source $HOME/.config/nvim/plug-config/emmet.vim
+source $HOME/.config/nvim/plug-config/emoji.vim
+source $HOME/.config/nvim/plug-config/fugitive.vim
+source $HOME/.config/nvim/plug-config/fzf.vim
+source $HOME/.config/nvim/plug-config/indentLine.vim
+source $HOME/.config/nvim/plug-config/prettier.vim
 source $HOME/.config/nvim/plug-config/rainbow.vim
 source $HOME/.config/nvim/plug-config/signify.vim
-source $HOME/.config/nvim/plug-config/whitespace.vim
-source $HOME/.config/nvim/plug-config/indentLine.vim
-source $HOME/.config/nvim/plug-config/fzf.vim
-source $HOME/.config/nvim/plug-config/start-screen.vim
-source $HOME/.config/nvim/plug-config/editorconfig.vim
-source $HOME/.config/nvim/plug-config/surround.vim
-source $HOME/.config/nvim/plug-config/emmet.vim
 source $HOME/.config/nvim/plug-config/snippets.vim
-source $HOME/.config/nvim/plug-config/fugitive.vim
-source $HOME/.config/nvim/plug-config/emoji.vim
+source $HOME/.config/nvim/plug-config/start-screen.vim
+source $HOME/.config/nvim/plug-config/surround.vim
+source $HOME/.config/nvim/plug-config/whitespace.vim
 
