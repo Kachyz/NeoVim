@@ -14,7 +14,9 @@ nmap <leader>gb :Gblame<CR>
 nmap <leader>gc :Gcommit<CR>
 
 " resolving conflicts
+" See merge conflicts
+nmap <leader>gm :Gdiffsplit!<CR>
 " right
-nmap <leader>ma :diffget //3<CR>
+nmap <leader>md :diffget //3<CR>
 " left
-nmap <leader>md :diffget //2<CR>
+nmap <leader>ma :diffget //2<CR>
