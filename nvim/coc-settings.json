@@ -18,7 +18,6 @@
   ],
   // explorer
   "explorer.width": 35,
-  "explorer.quitOnOpen": true,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings.global": {

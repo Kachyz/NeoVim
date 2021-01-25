@@ -153,7 +153,13 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 nmap <leader>ksw :CocSearch <C-R>=expand("<cword>")<CR><CR>/<C-r><C-w><CR>
 
 " Explorer
+let g:coc_explorer_global_presets = {
+\  'pwd': {
+\     'root-uri': getcwd(),
+\   },
+\}
 nmap <space>e :CocCommand explorer<CR>
+nmap <space>3 :CocCommand explorer --preset pwd<CR>
 "nmap <space>f :CocCommand explorer --preset floating<CR>
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 
