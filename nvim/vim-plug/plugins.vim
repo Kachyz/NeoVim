@@ -55,6 +55,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'editorconfig/editorconfig-vim'
   " Emojis (gitmoji)
   Plug 'Kachyz/vim-gitmoji'
+  " Registers
+  Plug 'junegunn/vim-peekaboo'
 
   " == THEMES ==
   Plug 'joshdick/onedark.vim'
@@ -66,6 +68,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mhartington/oceanic-next'
   Plug 'dikiaap/minimalist'
   Plug 'rhysd/vim-color-spring-night'
+  Plug 'wadackel/vim-dogrun'
 "  Plug 'bluz71/vim-nightfly-guicolors'
   Plug 'Kachyz/vim-nightfly-guicolors'
   Plug 'Rigellute/shades-of-purple.vim'
