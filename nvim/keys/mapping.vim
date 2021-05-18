@@ -38,6 +38,9 @@ nnoremap <C-\> :vsplit<CR>
 " Go to file in split window
 nnoremap <leader>kl <C-w>vgf
 nnoremap <leader>km <C-w>f
+" PageUp && PageDown
+nnoremap zk <PageUp>
+nnoremap zj <PageDown>
 
 " == VISUAL mode ==
 " Moving blocks
