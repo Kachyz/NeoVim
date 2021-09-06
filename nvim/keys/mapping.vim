@@ -83,6 +83,9 @@ map <C-b> :NERDTreeToggle<CR>              " Toogle NERDTree
 nnoremap <Leader>ki ciw${ <ESC>pa }
 vnoremap <Leader>ki c${ <ESC>pa }
 
+" == TOOLS ==
+" Sort inside curly braces
+nnoremap <Leader>kso vi{:sort<CR>
 
 " # Don't forget #
 " <C-x>  => Ctrl + x
