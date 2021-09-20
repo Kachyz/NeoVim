@@ -8,7 +8,7 @@ nmap <leader>ga :Gwrite<CR>
 nmap <leader>gd :Gvdiffsplit<CR>
 
 " git blame
-nmap <leader>gb :Gblame<CR>
+nmap <leader>gb :Git blame<CR>
 
 " git commit
 nmap <leader>gc :Gcommit<CR>
