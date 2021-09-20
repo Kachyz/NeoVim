@@ -59,6 +59,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'junegunn/vim-peekaboo'
 
   " == THEMES ==
+  Plug 'jaredgorski/spacecamp'
   Plug 'joshdick/onedark.vim'
   Plug 'haishanh/night-owl.vim'
   Plug 'arzg/vim-colors-xcode'
