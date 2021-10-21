@@ -41,6 +41,9 @@ nnoremap <leader>km <C-w>f
 " PageUp && PageDown
 nnoremap zk <PageUp>
 nnoremap zj <PageDown>
+" System clipboard
+nnoremap <Leader>kc "*y
+nnoremap <Leader>kv "*p
 
 " == VISUAL mode ==
 " Moving blocks
