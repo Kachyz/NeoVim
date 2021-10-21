@@ -11,7 +11,7 @@ nmap <leader>gd :Gvdiffsplit<CR>
 nmap <leader>gb :Git blame<CR>
 
 " git commit
-nmap <leader>gc :Gcommit<CR>
+nmap <leader>gc :Git commit<CR>
 
 " resolving conflicts
 " See merge conflicts
