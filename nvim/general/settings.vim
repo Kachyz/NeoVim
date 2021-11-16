@@ -31,7 +31,7 @@ set nobackup                            " This is recommended by coc
 set nowritebackup                       " This is recommended by coc
 set updatetime=300                      " Faster completion
 set timeoutlen=500                      " By default timeoutlen is 1000 ms
-set formatoptions-=cro                  " Stop newline continution of comments
+" set formatoptions-=cro                " Stop newline continution of comments
 "set autochdir                           " Your working directory will always be the same as your working directory
 set hlsearch                            " Hightlight search matches while typing
 set ignorecase                          " Ignore case-sensitive searches
@@ -42,6 +42,7 @@ set termguicolors                       " Full colors for themes
 set cursorline                          " Hightlight current line
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
+au BufEnter * set fo-=c fo-=r fo-=o     " Avoid comments when enter new lines
 
 " colorscheme xcodedark                   " Bracket color HACK
 colorscheme night-owl
