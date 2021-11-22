@@ -34,5 +34,6 @@ source $HOME/.config/nvim/plug-config/signify.vim
 source $HOME/.config/nvim/plug-config/snippets.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/surround.vim
+source $HOME/.config/nvim/plug-config/telescope.vim
 source $HOME/.config/nvim/plug-config/whitespace.vim
 
