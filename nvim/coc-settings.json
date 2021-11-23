@@ -33,5 +33,14 @@
   "diagnostic.warningSign": "⚠️",
   "diagnostic.infoSign": "❕",
   // Snippets
-  "snippets.userSnippetsDirectory": "~/.config/nvim/snips"
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
+  "snippets.extends": {
+    "javascriptreact": [
+      "javascript"
+    ],
+    "typescriptreact": [
+      "javascript",
+      "javascript-jasmine-arrow"
+    ]
+  }
 }
