@@ -52,8 +52,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Git
   Plug 'tpope/vim-fugitive'
   Plug 'mhinz/vim-signify'
+
   " Icons
   Plug 'ryanoasis/vim-devicons'
+  Plug 'kyazdani42/nvim-web-devicons'
+
   " Workspace handler
   Plug 'mhinz/vim-startify'
   " Editor config

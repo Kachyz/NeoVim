@@ -19,6 +19,7 @@ source $HOME/.config/nvim/themes/airline.vim   " StatusLine
 
 " == LUA ==
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
+luafile $HOME/.config/nvim/lua/telescope-config/init.lua
 
 " == PLUG CONFIG ==
 source $HOME/.config/nvim/plug-config/coc.vim
