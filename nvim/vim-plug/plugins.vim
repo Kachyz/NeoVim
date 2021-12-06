@@ -10,7 +10,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   " = SYNTAX =
   " Better Syntax Support
-  Plug 'sheerun/vim-polyglot'
+  " Plug 'sheerun/vim-polyglot'
   " Vertical lines (indentation)
   Plug 'Yggdroot/indentLine'
   " Highlights (colors)
@@ -83,6 +83,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'Rigellute/shades-of-purple.vim'
   Plug 'wadackel/vim-dogrun'
   Plug 'sainnhe/forest-night'
+  Plug 'rafamadriz/neon', {'branch': 'main'}
+  Plug 'Mofiqul/vscode.nvim', {'branch': 'main'}
 
 call plug#end()
 

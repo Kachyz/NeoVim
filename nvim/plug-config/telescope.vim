@@ -10,6 +10,9 @@ nnoremap <leader>b <cmd>Telescope buffers<cr>
 " git log
 nnoremap <leader>gl <cmd>Telescope git_commits<cr>
 
+" git status
+nnoremap <leader>gg <cmd>Telescope git_status<cr>
+
 " search word under cursos
 nnoremap <leader>kfw <cmd>Telescope grep_string<cr>
 
