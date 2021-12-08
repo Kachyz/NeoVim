@@ -12,7 +12,7 @@ local colors = {
   violet = '#d183e8',
   grey   = '#303030',
   charcoal = '#344960',
-  sky = '#52D0B0',
+  sky = '#70A8B8',
 }
 
 local bubbles_theme = {
