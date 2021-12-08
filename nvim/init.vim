@@ -15,16 +15,19 @@ source $HOME/.config/nvim/keys/mapping.vim
 " == THEMES ==
 source $HOME/.config/nvim/themes/nightfly.vim
 source $HOME/.config/nvim/themes/night-owl.vim
-source $HOME/.config/nvim/themes/airline.vim   " StatusLine
+" source $HOME/.config/nvim/themes/airline.vim   " StatusLine
 
 " == LUA ==
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
+luafile $HOME/.config/nvim/lua/nvim-tree/init.lua
 luafile $HOME/.config/nvim/lua/telescope-config/init.lua
 luafile $HOME/.config/nvim/lua/treesitter-config/init.lua
 luafile $HOME/.config/nvim/lua/lualine-config/init.lua
+luafile $HOME/.config/nvim/lua/bufferline-config/init.lua
+luafile $HOME/.config/nvim/lua/lsp/init.lua
 
 " == PLUG CONFIG ==
-source $HOME/.config/nvim/plug-config/coc.vim
+" source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/editorconfig.vim
 source $HOME/.config/nvim/plug-config/emmet.vim
 source $HOME/.config/nvim/plug-config/emoji.vim

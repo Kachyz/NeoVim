@@ -31,6 +31,17 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'jiangmiao/auto-pairs'
   " <3 Emmet
   Plug 'mattn/emmet-vim'
+  " Autocompletion
+  Plug 'neovim/nvim-lspconfig'
+  Plug 'hrsh7th/cmp-nvim-lsp'
+  Plug 'hrsh7th/cmp-buffer', {'branch': 'main'}
+  Plug 'hrsh7th/cmp-path', {'branch': 'main'}
+  Plug 'hrsh7th/cmp-cmdline', {'branch': 'main'}
+  Plug 'hrsh7th/nvim-cmp', {'branch': 'main'}
+
+  " For vsnip users.
+  Plug 'hrsh7th/cmp-vsnip', {'branch': 'main'}
+  Plug 'hrsh7th/vim-vsnip', {'branch': 'main'}
 
   " = FZF =
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -43,13 +54,17 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 
   " File Explorer
-  Plug 'scrooloose/NERDTree'
+  Plug 'kyazdani42/nvim-tree.lua'
+
+  " Plug 'scrooloose/NERDTree'
   " Stable version of coc
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   " Airline
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
   Plug 'nvim-lualine/lualine.nvim'
+  Plug 'akinsho/bufferline.nvim'
+
   " Git
   Plug 'tpope/vim-fugitive'
   Plug 'mhinz/vim-signify'
